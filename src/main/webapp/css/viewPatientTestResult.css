@@ -1,0 +1,67 @@
+.header-container{
+	text-align: center;
+	margin-top: 30px;
+	text-align: center;
+	color: rgb(0, 128, 192);
+	font-weight: bold;
+}
+
+.form-around-container{
+	width: 100%;
+	margin-top: 50px;
+}
+
+.input-nic{
+	width:500px;
+	height: 45px;
+	border: 2px solid rgb(0, 128, 255);
+	border-radius: 5px;
+	margin-left:  10px;
+}
+.input-filed-name{
+	margin-left: 100px;
+	font-size: 25px;
+	color: gray;
+	
+}
+
+.seacrh-button{
+	width: 150px;
+	height: 45px;
+	border: 1px solid dodgerblue;
+	border-radius: 5px;
+	margin:10px;
+	background-color: dodgerblue;
+	color: ghostwhite;
+	
+	
+}
+.seacrh-button:hover{
+	border: 1px solid #2980b9;
+	background-color: #2980b9;
+
+}
+
+.back-to-home-button{
+	width: 150px;
+	height: 40px;
+	border: 1px solid#e74c3c;
+	border-radius: 5px;
+	margin:10px;
+	background-color:#e74c3c;
+	color: ghostwhite;
+	
+}
+
+.back-to-home-button:hover{
+	border: 1px solid#c0392b;
+	background-color:#c0392b;
+
+}
+
+.go-back-button{
+	padding-top: 50px;
+	margin-top: 50px;
+}
+
+

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+			xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+			xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" 
+			id="WebApp_ID" 
+			version="4.0">
+  
+  	<servlet>
+  		<servlet-name>patientTestResult</servlet-name>
+  		<servlet-class>com.patient.PatientTestResultInsert</servlet-class>
+  	</servlet>
+  	
+  	<servlet-mapping>
+  		<servlet-name>patientTestResult</servlet-name>
+  		<url-pattern>/inserttestresult</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+  		<servlet-name>viewPatientData</servlet-name>
+  		<servlet-class>com.patient.patientTestResultViewServelet</servlet-class>
+  	</servlet>
+  	
+  	<servlet-mapping>
+  		<servlet-name>viewPatientData</servlet-name>
+  		<url-pattern>/viewpatientdatabynic</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+  		<servlet-name>updatePatientTestData</servlet-name>
+  		<servlet-class>com.patient.patientTestResultUpdateServelet</servlet-class>
+  	</servlet>
+  	
+  	<servlet-mapping>
+  		<servlet-name>updatePatientTestData</servlet-name>
+  		<url-pattern>/updatepatienttestdata</url-pattern>
+  	</servlet-mapping>
+  	
+  	  	<servlet>
+  		<servlet-name>deletePatientTestResult</servlet-name>
+  		<servlet-class>com.patient.patientTestResultDeleteServelet</servlet-class>
+  	</servlet>
+  	
+  	<servlet-mapping>
+  		<servlet-name>deletePatientTestResult</servlet-name>
+  		<url-pattern>/deletePatientTestResult</url-pattern>
+  	</servlet-mapping>
+  
+
+</web-app>

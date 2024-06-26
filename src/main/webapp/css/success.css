@@ -1,0 +1,19 @@
+.back-to-home-button{
+	width: 150px;
+	height: 40px;
+	border: 1px solid#e74c3c;
+	border-radius: 5px;
+	margin:10px;
+	background-color:#e74c3c;
+	color: ghostwhite;
+}
+
+.back-to-home-button:hover{
+	border: 1px solid#c0392b;
+	background-color:#c0392b;
+
+}
+.around-container{
+	text-align: center;
+	margin-top: 250px;
+}
